@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_packageName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="packageName" />
+
+            <TextView
+                android:id="@+id/textView_versionCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="versionCode" />
+
+            <TextView
+                android:id="@+id/textView_versionName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="versionName" />
+
+            <TextView
+                android:id="@+id/textView_targetSdkVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="targetSdkVersion" />
+
+            <TextView
+                android:id="@+id/textView_firstInstallTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="firstInstallTime" />
+
+            <TextView
+                android:id="@+id/textView_lastUpdateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lastUpdateTime" />
+
+            <TextView
+                android:id="@+id/textView_usesPermissions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="uses-Permissions"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView_permission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="permission"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView_sourceDir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sourceDir" />
+
+            <TextView
+                android:id="@+id/textView_enabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="enabled" />
+
+            <TextView
+                android:id="@+id/textView_updated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="updated" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
